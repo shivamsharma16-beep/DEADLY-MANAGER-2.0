@@ -75,20 +75,20 @@ def get_readable_time(seconds: int) -> str:
                 
 
 PM_START_TEXT = """                   
-Hello there, I'm [𝐃𝐄𝐀𝐃𝐋𝐘 𝐁𝐎𝐓](https://telegra.ph/file/581295fcf392bb13dd0d6.jpg)
+Hello there, I'm [Miss Delirious](https://telegra.ph/file/2abd1c5de3a557b5f1172.jpg)
 I am an anime Themed Group Managing Bot and I will help in managing your group\n
-✪ Make sure you read *𝙸𝙽𝙵𝙾* Section Below ✪ \n
-𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](t.me/SAMEER_795)
+✪ Make sure you read *HELP* Section Below ✪ \n
+𝐌𝐘 𝐆𝐎𝐃 - [HYDROXY](t.me/hydroxy_op)
 """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🌹 𝙰𝙳𝙳 𝙳𝙴𝙰𝙳𝙻𝚈 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/DEADLY_manager_bot?startgroup=true"),
+            text="🌹 𝙰𝙳𝙳 𝙳𝙴𝙰𝙳𝙻𝚈 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 🌹", url="t.me/missdelirious_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="💞𝙸𝙽𝙵𝙾💞", callback_data="shasa_"),
         InlineKeyboardButton(
-            text="💖𝚂𝚄𝙿𝙿𝙾𝚁𝚃💖", url=f"https://t.me/DEADLY_manager_support"
+            text="💖𝚂𝚄𝙿𝙿𝙾𝚁𝚃💖", url=f"https://t.me/joinchat/RgwF6IPo1HE5ODc1"
         ),           
     ],
     [
@@ -98,16 +98,16 @@ buttons = [
 
 
 HELP_STRINGS = """
-`𝙷𝙸, 𝙸 𝙰𝙼` [𝙳𝙴𝙰𝙳𝙻𝚈 𝙱𝙾𝚃❤️](https://telegra.ph/file/f0d3a4c45e9d8f8b4ba7a.jpg)
+`𝙷𝙸, 𝙸 𝙰𝙼` [𝙳𝙴𝙰𝙳𝙻𝚈 𝙱𝙾𝚃❤️](https://telegra.ph/file/2abd1c5de3a557b5f1172.jpg)
 `𝙸 𝙰𝙼 𝙷𝙴𝚁𝙴 𝚃𝙾 𝙼𝙰𝙽𝙰𝙶𝙴 𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙿𝙴𝚁𝙵𝙴𝙲𝚃𝙻𝚈..`"""
 
 
-shasa_IMG = "https://telegra.ph/file/52a4f3628ea7975119b5c.jpg"
+shasa_IMG = "https://telegra.ph/file/2abd1c5de3a557b5f1172.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Paypal](#) or by contacting @SAMEER_795 \
+ You can support the project via [Coinbase](#) or by contacting @hydroxy_op ➡\
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+ Those who cannot provide monetary support are welcome to help us develop the bot. 
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -385,7 +385,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *ShasaBot bot*
+            text=""" Hi..🤗 I'm *Miss Delirious Bot*
                  \nHere is the [Source Code](GAND MARA) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
